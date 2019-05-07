@@ -2,23 +2,22 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 
 
-
-
-function Nav() {
+function Tv() {
   return (
-    <div style={{backgroundColor: 'red'}}>
-      <NavLink to='/'>Home</NavLink>
-      <NavLink to='/mac'>mac</NavLink>
-      <NavLink to='/ipad'>ipad</NavLink>
-      <NavLink to='/iphone'>iphone</NavLink>
-      <NavLink to='/watch'>watch</NavLink>
-      <NavLink to='/tv'>tv</NavLink>
-      <NavLink to='/music'>music</NavLink>
-      <NavLink to='/support'>support</NavLink>
-      <NavLink to='/search'>search</NavLink>
-      <NavLink to='/bag'>bag</NavLink>
+    <div>
+      <div style={{backgroundColor: 'red'}}>
+        <NavLink to='/apple-tv-app'>Apple TV App</NavLink>
+        <NavLink to='/apple-tv-plus'>Apple TV+</NavLink>
+        <NavLink to='/apple-tv-4k'>Apple TV 4K</NavLink>
+        <NavLink to='/apple-tv-hd'>Apple TV HD</NavLink>
+        <NavLink to='/airplay'>Air Play</NavLink>
+        <NavLink to='/tv/accessories'>TV Accessories</NavLink>
+      </div>
+      <div>
+        <div style={{backgroundColor: 'lightgrey'}}> Music main content </div>
+      </div>
     </div>
   );
 }
 
-export default Nav;
+export default Tv;

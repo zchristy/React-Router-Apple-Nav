@@ -4,21 +4,23 @@ import { NavLink } from "react-router-dom";
 
 
 
-function Nav() {
+function Music() {
   return (
-    <div style={{backgroundColor: 'red'}}>
-      <NavLink to='/'>Home</NavLink>
-      <NavLink to='/mac'>mac</NavLink>
-      <NavLink to='/ipad'>ipad</NavLink>
-      <NavLink to='/iphone'>iphone</NavLink>
-      <NavLink to='/watch'>watch</NavLink>
-      <NavLink to='/tv'>tv</NavLink>
-      <NavLink to='/music'>music</NavLink>
-      <NavLink to='/support'>support</NavLink>
-      <NavLink to='/search'>search</NavLink>
-      <NavLink to='/bag'>bag</NavLink>
+    <div>
+      <div style={{backgroundColor: 'red'}}>
+        <NavLink to='/apple-music'>Apple Music</NavLink>
+        <NavLink to='/itunes'>iTunes</NavLink>
+        <NavLink to='/homepod'>HomePod</NavLink>
+        <NavLink to='/airpods'>AirPods</NavLink>
+        <NavLink to='/ipod-touch'>iPod Touch</NavLink>
+        <NavLink to='/music/accessories'>Music Accessories</NavLink>
+        <NavLink to='/giftcards'>Gift Cards</NavLink>
+      </div>
+      <div>
+        <div style={{backgroundColor: 'lightgrey'}}> Music main content </div>
+      </div>
     </div>
   );
 }
 
-export default Nav;
+export default Music;

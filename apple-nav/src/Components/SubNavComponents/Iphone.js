@@ -7,16 +7,20 @@ import { NavLink } from "react-router-dom";
 function Iphone() {
   return (
     <div style={{backgroundColor: 'red'}}>
-      <NavLink to='/ipad-pro'>ipad-pro</NavLink>
-      <NavLink to='/ipad-air'>ipad Air</NavLink>
-      <NavLink to='/ipad'>ipad</NavLink>
-      <NavLink to='/ipad-mini'>ipad mini</NavLink>
-      <NavLink to='/ipad/compare'>Compare</NavLink>
-      <NavLink to='/apple-pencil'>Apple Pencil</NavLink>
-      <NavLink to='/smart-keyboard'>Smart Keyboard</NavLink>
-      <NavLink to='/ipad/accessories'>Accessories</NavLink>
-      <NavLink to='/ios12'>iOS 12</NavLink>
-      <div style={{width:'100%', height:'500px'}}> iPhone </div>
+      <div>
+        <NavLink to='/iphonexs'>iPhone Xs</NavLink>
+        <NavLink to='/iphonexr'>iPhone Xr</NavLink>
+        <NavLink to='/iphone8'>iPhone 8</NavLink>
+        <NavLink to='/iphone7'>iPhone 7</NavLink>
+        <NavLink to='/iphone/compare'>Compare</NavLink>
+        <NavLink to='/apple-card'>Apple Card</NavLink>
+        <NavLink to='/airpods'>AirPods</NavLink>
+        <NavLink to='/iphone/accessories'>Accessories</NavLink>
+        <NavLink to='/ios12'>iOS 12</NavLink>
+      </div>
+      <div>
+        <div style={{backgroundColor: 'lightgrey'}}> iPhone main content </div>
+      </div>
     </div>
   );
 }
