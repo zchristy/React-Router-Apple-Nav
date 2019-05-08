@@ -59,10 +59,10 @@ export const DropDownContainer = styled.div`
   right: 67px;
   border: 1px solid #d6d6d6;
   border-radius: 2px;
-  width: 270px;
+  width: 250px;
   height: 300px;
   background-color: #fff;
-  padding: 0 20px;
+  padding: 0 20px 5px 20px;
 `;
 
 export const BagMessage = styled.p`
@@ -74,6 +74,7 @@ export const BagMessage = styled.p`
 
 export const BagLink = styled.div`
   color: #0070c9;
+  font-size: 0.9rem;
   display: block;
   line-height: 43px;
   padding: 0 30px;
@@ -81,7 +82,12 @@ export const BagLink = styled.div`
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin: 0;
+  margin: 5px 0;
   padding: 0;
   border-top: 1px solid #e3e3e3;
+`;
+
+export const BagIcon = styled.i`
+  margin-right: 10px;
+  width: 25px;
 `;

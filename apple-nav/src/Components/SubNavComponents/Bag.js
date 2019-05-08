@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { BagCaret, DropDownContainer, BagMessage, BagLink } from '../../styles';
+import { BagCaret, DropDownContainer, BagMessage, BagLink, BagIcon } from '../../styles';
 
 class Bag extends Component {
   constructor() {
@@ -45,11 +45,11 @@ class Bag extends Component {
                     this.dropdownMenu = element;
                   }}>
                 <BagMessage>Your Bag is Empty</BagMessage>
-                <BagLink><i className="fas fa-shopping-bag"></i> Bag</BagLink>
-                <BagLink><i className="fas fa-heart"></i> Favorites</BagLink>
-                <BagLink><i className="fas fa-box-open"></i> Order</BagLink>
-                <BagLink><i className="fas fa-user-cog"></i> Account</BagLink>
-                <BagLink><i className="fas fa-user"></i> Sign in</BagLink>
+                <BagLink><BagIcon className="fas fa-shopping-bag"></BagIcon> Bag</BagLink>
+                <BagLink><BagIcon className="fas fa-heart"></BagIcon> Favorites</BagLink>
+                <BagLink><BagIcon className="fas fa-box-open"></BagIcon> Order</BagLink>
+                <BagLink><BagIcon className="fas fa-user-cog"></BagIcon> Account</BagLink>
+                <BagLink><BagIcon className="fas fa-user"></BagIcon> Sign in</BagLink>
               </DropDownContainer>
             </div>
           ) : (null)
