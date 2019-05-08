@@ -1,5 +1,36 @@
 import styled from 'styled-components';
 
+
+// ===== Nav =====
+export const MainNavBarContainer = styled.div`
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 44px;
+  background-color: #303030;
+`;
+
+export const MainNavBar = styled.nav`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 0.9rem;
+      margin: 0 -10px;
+    }
+
+    .active {
+      color: #A9A9A9;
+    }
+`;
+
 // ===== Sub Nav =====
 
 export const SubNavBarContainer = styled.div`
