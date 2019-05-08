@@ -1,24 +1,13 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
 
+import { ContentImg } from '../../styles';
 
-
-
-function Nav() {
+function Support() {
   return (
-    <div style={{backgroundColor: 'red'}}>
-      <NavLink to='/'>Home</NavLink>
-      <NavLink to='/mac'>mac</NavLink>
-      <NavLink to='/ipad'>ipad</NavLink>
-      <NavLink to='/iphone'>iphone</NavLink>
-      <NavLink to='/watch'>watch</NavLink>
-      <NavLink to='/tv'>tv</NavLink>
-      <NavLink to='/music'>music</NavLink>
-      <NavLink to='/support'>support</NavLink>
-      <NavLink to='/search'>search</NavLink>
-      <NavLink to='/bag'>bag</NavLink>
+    <div>
+      <ContentImg src="https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/hero-banner-homepage.image.large_2x.jpg" />
     </div>
   );
 }
 
-export default Nav;
+export default Support;

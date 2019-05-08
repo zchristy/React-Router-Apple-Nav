@@ -7,14 +7,19 @@ import Watch from './Components/SubNavComponents/Watch';
 import Tv from './Components/SubNavComponents/Tv';
 import Support from './Components/SubNavComponents/Support';
 import Search from './Components/SubNavComponents/Search';
-import Bag from './Components/SubNavComponents/Bag';
+// import Bag from './Components/SubNavComponents/Bag';
 import Music from './Components/SubNavComponents/Music';
 
 export const mainRoutes = [
   {
     path: "/",
     exact: true,
-    subnav: () => <div>Main: home</div>
+    subnav: () => <div><img
+                          style={{width: '100%', height: 'auto'}}
+                          src="https://www.apple.com/v/home/ef/images/heroes/spring-iphone-xs/iphone_xs__cm637qa5dno2_large_2x.jpg" alt="apple"/>
+                       <img
+                          style={{width: '100%', height: 'auto'}}
+                          src="https://www.apple.com/v/mac/home/af/images/overview/hero/macbook_pro__c6uspyy0f8sy_large_2x.jpg" alt="apple"/></div>
   },
   {
     path: "/mac",
@@ -55,11 +60,6 @@ export const mainRoutes = [
     path: "/search",
     exact: true,
     subnav: () => <div><Search /></div>
-  },
-  {
-    path: "/bag",
-    exact: true,
-    subnav: () => <div><Bag /></div>
   }
 ];
 

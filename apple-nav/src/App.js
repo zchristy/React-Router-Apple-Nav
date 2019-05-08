@@ -1,18 +1,19 @@
 import React from 'react';
-import './App.css';
-
 import { Route } from "react-router-dom";
-
+import styled from 'styled-components';
 
 import Nav from './Components/Nav';
-
 import * as ROUTES from './routes.js';
+
+const AppContainer = styled.div`
+  width: 100%;
+`;
 
 function App() {
   return (
-    <div className="App">
+    <AppContainer>
       <Nav />
-      <div style={{border: '1px solid red'}}>
+      <div>
         {ROUTES.mainRoutes.map((route, index) => (
             <Route
               key={index}
@@ -30,7 +31,7 @@ function App() {
             component={route.content}
           />
         ))}
-    </div>
+    </AppContainer>
   );
 }
 
