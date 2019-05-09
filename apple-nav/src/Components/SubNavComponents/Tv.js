@@ -9,40 +9,40 @@ function Tv() {
   return (
     <div>
       <SubNavBarContainer>
-        <SubNavBar>
+        <SubNavBar style={{background: "black"}}>
 
-          <NavLink to='/apple-tv-app'>
-          <Icon name="appleTvLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          <NavLink to='/apple-tv-app' style={{color: "white"}}>
+          <Icon name="appleTvLogo" width={50} fill="white" style={{marginTop: "-30px"}}
           />
           Apple TV App
           </NavLink>
 
-          <NavLink to='/apple-tv-plus'>
-          <Icon name="appleTvPlusLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          <NavLink to='/apple-tv-plus' style={{color: "white"}}>
+          <Icon name="appleTvPlusLogo" width={50} fill="white" style={{marginTop: "-30px"}}
           />
           Apple TV+
           </NavLink>
 
-          <NavLink to='/apple-tv-4k'>
-          <Icon name="appleTv4kLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          <NavLink to='/apple-tv-4k' style={{color: "white"}}>
+          <Icon name="appleTv4kLogo" width={50} fill="white" style={{marginTop: "-30px"}}
           />
           Apple TV 4K
           </NavLink>
 
-          <NavLink to='/apple-tv-hd'>
-          <Icon name="appleTvHdLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          <NavLink to='/apple-tv-hd' style={{color: "white"}}>
+          <Icon name="appleTvHdLogo" width={50} fill="white" style={{marginTop: "-30px"}}
           />
           Apple TV HD
           </NavLink>
 
-          <NavLink to='/airplay'>
-          <Icon name="airPlayLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          <NavLink to='/airplay' style={{color: "white"}}>
+          <Icon name="airPlayLogo" width={50} fill="white" style={{marginTop: "-30px"}}
           />
           Air Play
           </NavLink>
 
-          <NavLink to='/tv/accessories'>
-          <Icon name="tvAccessoriesLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          <NavLink to='/tv/accessories' style={{color: "white"}}>
+          <Icon name="tvAccessoriesLogo" width={50} fill="white" style={{marginTop: "-30px"}}
           />
           TV Accessories
           </NavLink>
