@@ -8,8 +8,8 @@ import Icon from '../../Assets/svgImages/svgIndex';
 function Tv() {
   return (
     <div>
-      <SubNavBarContainer>
-        <SubNavBar style={{background: "black"}}>
+      <SubNavBarContainer style={{background: "black"}}>
+        <SubNavBar>
 
           <NavLink to='/apple-tv-app' style={{color: "white"}}>
           <Icon name="appleTvLogo" width={50} fill="white" style={{marginTop: "-30px"}}
