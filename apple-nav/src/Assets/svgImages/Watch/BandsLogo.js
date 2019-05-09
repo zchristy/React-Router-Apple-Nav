@@ -5,7 +5,7 @@ const SVG = ({
   fill = "#000",
   width = "100%",
   className = "",
-  viewBox = "0 0 47.92 54"
+  viewBox = "0 0 17 54"
 }) => (
   <svg
     width={width}
