@@ -51,7 +51,8 @@ export const SubNavBar = styled.div`
   margin: 0 auto;
   font-size: .7em;
   font-weight: 500;
-  height: 18vh;
+  height: 100%;
+  padding: 0 2.5%;
 
     a {
       text-decoration: none;
