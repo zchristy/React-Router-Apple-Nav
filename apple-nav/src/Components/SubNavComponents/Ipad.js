@@ -3,20 +3,68 @@ import { NavLink } from "react-router-dom";
 
 import { SubNavBarContainer, SubNavBar, ContentImg } from '../../styles';
 
+import Icon from '../../Assets/svgImages/svgIndex';
+
 function Ipad() {
   return (
     <div>
       <SubNavBarContainer>
         <SubNavBar>
-        <NavLink to='/ipad-pro'>ipad-pro</NavLink>
-        <NavLink to='/ipad-air'>ipad Air</NavLink>
-        <NavLink to='/ipad_'>ipad</NavLink>
-        <NavLink to='/ipad-mini'>ipad mini</NavLink>
-        <NavLink to='/ipad/compare'>Compare</NavLink>
-        <NavLink to='/apple-pencil'>Apple Pencil</NavLink>
-        <NavLink to='/smart-keyboard'>Smart Keyboard</NavLink>
-        <NavLink to='/ipad/accessories'>Accessories</NavLink>
-        <NavLink to='/ios12'>iOS 12</NavLink>
+
+        <NavLink to='/ipad-pro'>
+        <Icon name="ipadProLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          />
+        ipad-pro
+        </NavLink>
+
+        <NavLink to='/ipad-air'>
+        <Icon name="ipadAirLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          />
+        ipad Air
+        </NavLink>
+
+        <NavLink to='/ipad_'>
+        <Icon name="ipadLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          />
+        ipad
+        </NavLink>
+
+        <NavLink to='/ipad-mini'>
+        <Icon name="ipadMiniLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          />
+        ipad mini
+        </NavLink>
+
+        <NavLink to='/ipad/compare'>
+        <Icon name="ipadCompareLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          />
+        Compare
+        </NavLink>
+
+        <NavLink to='/apple-pencil'>
+        <Icon name="applePencilLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          />
+        Apple Pencil
+        </NavLink>
+
+        <NavLink to='/smart-keyboard'>
+        <Icon name="smartKeyboardLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          />
+        Smart Keyboard
+        </NavLink>
+
+        <NavLink to='/ipad/accessories'>
+        <Icon name="ipadAccessoriesLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          />
+        Accessories
+        </NavLink>
+
+        <NavLink to='/ios12'>
+        <Icon name="ipadIos12Logo" width={50} fill="black" style={{marginTop: "-30px"}}
+          />
+        iOS 12
+        </NavLink>
+        
         </SubNavBar>
       </SubNavBarContainer>
       <div>

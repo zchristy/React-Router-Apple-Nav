@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import { BagCaret, DropDownContainer, BagMessage, BagLink, BagIcon } from '../../styles';
 
+import Icon from '../../Assets/svgImages/svgIndex';
+
 class Bag extends Component {
   constructor() {
     super();
@@ -35,7 +37,7 @@ class Bag extends Component {
     return (
       <div>
         <div onClick={this.showMenu} >
-          Bag
+          <Icon name="shopBagLogo" fill="white" width={45}/>
         </div>
         {this.state.showMenu ?
           (
