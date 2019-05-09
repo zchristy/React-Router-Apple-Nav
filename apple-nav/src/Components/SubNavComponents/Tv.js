@@ -3,17 +3,50 @@ import { NavLink } from "react-router-dom";
 
 import { SubNavBarContainer, SubNavBar, ContentImg } from '../../styles';
 
+import Icon from '../../Assets/svgImages/svgIndex';
+
 function Tv() {
   return (
     <div>
       <SubNavBarContainer>
         <SubNavBar>
-          <NavLink to='/apple-tv-app'>Apple TV App</NavLink>
-          <NavLink to='/apple-tv-plus'>Apple TV+</NavLink>
-          <NavLink to='/apple-tv-4k'>Apple TV 4K</NavLink>
-          <NavLink to='/apple-tv-hd'>Apple TV HD</NavLink>
-          <NavLink to='/airplay'>Air Play</NavLink>
-          <NavLink to='/tv/accessories'>TV Accessories</NavLink>
+
+          <NavLink to='/apple-tv-app'>
+          <Icon name="appleTvLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          />
+          Apple TV App
+          </NavLink>
+
+          <NavLink to='/apple-tv-plus'>
+          <Icon name="appleTvPlusLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          />
+          Apple TV+
+          </NavLink>
+
+          <NavLink to='/apple-tv-4k'>
+          <Icon name="appleTv4kLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          />
+          Apple TV 4K
+          </NavLink>
+
+          <NavLink to='/apple-tv-hd'>
+          <Icon name="appleTvHdLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          />
+          Apple TV HD
+          </NavLink>
+
+          <NavLink to='/airplay'>
+          <Icon name="airPlayLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          />
+          Air Play
+          </NavLink>
+
+          <NavLink to='/tv/accessories'>
+          <Icon name="tvAccessoriesLogo" width={50} fill="black" style={{marginTop: "-30px"}}
+          />
+          TV Accessories
+          </NavLink>
+
         </SubNavBar>
       </SubNavBarContainer>
       <div>
